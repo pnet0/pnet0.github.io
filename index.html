@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="src/_imgs/ico.png" />
+  <title>Paulo Neto</title>
+  <meta name="description" content="Paulo Neto - Web Developer">
+  <meta name="author" content="Paulo Neto" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- Styleshet Pages -->
+  <link rel="stylesheet" type="text/css" href="src/_css/bootstrap.css">
+  <link rel="stylesheet" media="screen" href="src/_css/particles.css">
+	<link rel="stylesheet" type="text/css" href="src/_css/style.css">
+  <link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+  <!-- Script Pages -->
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</head>
+<body>
+<div id="preloader">
+  <div id="status"></div>
+</div>
+<div id="preloaderstep">
+  <div id="status"></div>
+</div>
+  <div class="container-fluid">
+    <nav class="navbar navbar-m2p sidebar" role="navigation" id="menu_principal">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+        <a class="logo navbar-brand" href="#"><span id="logo_col">pN</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+        <ul class="nav navbar-nav side" id="q">
+          <li class="active open" id="home">
+            <a href="#" class=""><i class="fa fa-home" aria-hidden="true"></i></a>
+          </li>
+          <li class="" id="about">
+            <a href="#" class="" id="about"><i class="fa fa-user-secret" aria-hidden="true"></i></a>    
+          </li>
+          <li class="" id="skills">
+            <a href="#" class=""><i class="fa fa-code" aria-hidden="true"></i></a>
+          </li>
+          <li class="" id="gallery">
+            <a href="#" class=""><i class="fa fa-picture-o" aria-hidden="true"></i></a>          
+          </li>
+        </ul>
+        <ul class="nav navbar-nav side-bottom">
+          <li class="dropdown">
+            <a href="https://www.facebook.com/paulo.netoo.1" target="_blank" class=""><i class="fa fa-facebook" aria-hidden="true"></i></a>  
+          </li>
+          <li class="dropdown">
+            <a href="https://api.whatsapp.com/send?phone=5585997646787" target="_blank" class=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>  
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <style type="text/css">
+  @font-face{
+  font-family: "Montezumas Revenge";
+  src: url('src/_fonts/mont.ttf') format("truetype");
+}
+   @font-face{
+    font-family: "Coolvetica Rg";
+    src: url('src/_fonts/font.ttf') format("truetype");
+    }
+  </style>
+
+  <span id="um" class="hello">
+    <h2>Hi,</h2>
+    <h1>I'm Neto</h1>
+    <h2>web developer.</h2>
+  </span>
+
+
+
+
+  <span class="hello dois">
+    <h2>A little</h2>
+    <h1>about</h1>
+    <h2>myself.</h2>
+  </span>
+  <div  id="info" class="dois">
+    <img  class="me img-responsive" src="src/_imgs/perfil.jpg" class="perfil img-responsive">
+    <hr style=""> 
+    <h1 class="content">developer Web Front-end.</h1> <br>
+    <p class="text-about">&emsp;Passionate about technology, for two years he has been studying programming languages ​​aimed at the front-end.</p> <br>
+    <p class="text-about">&emsp;In recent months he has been in contact with the platform Salesforce, 
+Gaining vast experience in design and cloud computing.</p><br>
+    <p class="text-about">&emsp;
+Always committed to learning new technologies, looking for what's new when it comes to practicality.</p> <br>
+    <p class="text-about">&emsp;Technician in Computer Networks, future student of Computer Science.</p>
+    <br>
+  </div>
+
+  <div class="tagBall">
+      <p class="tag">Photoshop</p>
+      <p class="tag">Ruby</p>
+      <p class="tag">HTML</p>
+      <p class="tag">CSS</p>
+      <p class="tag">Visualforce</p>
+      <p class="tag">Apex</p>
+      <p class="tag">PHP</p>
+      <p class="tag">Python</p>
+      <p class="tag">Ruby</p>
+      <p class="tag">Force.com</p>
+      <p class="tag">Jquery</p>
+      <p class="tag">JS Libraries</p>
+      <p class="tag">Linux</p>
+  </div>
+
+  <span class="hello" id="tres">
+    <h1>My Skill's</h1>
+    <p class="text-about">The first activities in programming were developing single pages for websites, creating their layout and mockup. Over time, I've been studying back-end languages. Ruby, Python, PHP. Currently I am creating systems integrated to the <b>Force.com</b> database.</p>
+    <p class="text-about">Certainly we can not abandon server-side languages.</p>
+  </span>
+
+  <span class="hello" id="quatro">
+    <h1>Some of my work's.</h1>
+    <p class="text-about">I'll post more soon!</p>
+  </span>
+
+  <a class="work" href="src/_pages/form/index.html"><img src="src/_imgs/showcase-form.png" id="work-one" class="work-view"></a>
+  <a class="work" href="http://www.moldsoft.com.br"><img src="src/_imgs/showcase-moldsoft.png" id="work-two" class="work-view"></a>
+
+
+<div id="particles-js"></div>
+
+<script type="text/javascript">
+// Autor : Paulo Neto
+// Data : Junho/2017
+  function loader(div) {
+    $("#preloaderstep").delay(50).fadeIn(50);
+    $("status").delay(50).fadeIn(50);
+    $("#preloaderstep").delay(2500).fadeOut(200);
+  }
+  $(window).on('load', function() { // makes sure the whole site is loaded 
+    $('#status').fadeOut(); // will first fade out the loading animation 
+    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+    $('body').delay(350).css({'overflow':'visible'});
+  });
+  $(document).ready(function(){
+    $('.dois').hide();
+    $('#tres').hide();
+    $('.tagBall').hide();
+    $('#quatro').hide();
+    $('.work').hide();
+    $('#preloaderstep').hide();
+
+    atualizarAltura();
+      
+    $(window).resize(function () {
+          atualizarAltura();
+    });
+    $(window).scroll(function () {
+      altura1 = $('.container-main').height();
+      
+      atualizarAltura();
+      
+    });
+     $('.tagBall').cloudTag({ballSize:100});     
+  });
+    
+    $('.blast').hover(function () {
+      // função / animação
+      var chars = $('span').blast({
+        delimiter: 'character'
+      });
+
+      // Animation
+       chars.each(function(i) {
+        // position
+        $(this).css({
+          position: 'relative',
+          left: 0
+        }).delay(i * 45).animate({
+          left: '50px'
+        }, 300).delay(200).animate({
+          left: 0
+        }, 300);
+      });
+    });
+
+
+  $('#about').click(function(){
+
+    loader(this);
+    // loader
+    $("#bs-sidebar-navbar-collapse-1").removeClass('show');
+    $('#about').css({'pointer-events' : 'none'});
+    $('#home ,#skills ,#gallery').css({'pointer-events' : 'auto'});
+    //icons
+    $('#home, #skills, #gallery').removeClass('active');
+    $('#about').addClass('active');
+
+    $('#um').hide();
+    $('#tres').hide();
+    $('.tagBall').hide();
+    $('#quatro').hide();
+    $('.work').hide();
+    $('.dois').delay(2500).show(0);
+
+   
+  });
+
+  $('#home').click(function(){
+    
+    loader(this);
+    //loader
+    $("#bs-sidebar-navbar-collapse-1").removeClass('show');
+    $('#home').css({'pointer-events' : 'none'});
+    $('#about, #skills, #gallery').css({'pointer-events' : 'auto'});
+    //icons
+    $('#about, #skills, #gallery').removeClass('active');
+    $('#home').addClass('active');
+
+    $('.dois').delay(1500).hide(0);
+    $('#tres').hide();
+    $('.tagBall').hide();
+    $('#quatro').hide();
+    $('.work').hide();
+    $('#um').delay(2500).show(0);   
+  });
+
+  $('#skills').click(function(){
+    loader(this);
+    //loader
+    $("#bs-sidebar-navbar-collapse-1").removeClass('show');
+    $('#skills').css({'pointer-events' : 'none'});
+    $('#home, #about, #gallery').css({'pointer-events' : 'auto'});
+    //icons
+    $('#home, #about, #gallery').removeClass('active');
+    $('#skills').addClass('active');
+    
+    $('#um').hide();
+    $('.dois').hide();
+    $('.desc').hide();
+    $('#quatro').hide();
+    $('.work').hide();
+    $('#tres').delay(2500).show(0);
+    $('.tagBall').delay(2500).show(0);
+  });
+
+  $('#gallery').click(function(){
+    loader(this);
+    //loader
+    $("#bs-sidebar-navbar-collapse-1").removeClass('show');
+    $('#gallery').css({'pointer-events' : 'none'});
+    $('#skills ,#home ,#about').css({'pointer-events' : 'auto'});    
+    //icons
+    $('#skills, #about, #home').removeClass('active');
+    $('#gallery').addClass('active');
+    
+    $('#um').hide();
+    $('.dois').hide();
+    $('.desc').hide();
+    $('#tres').hide();
+    $('.tagBall').hide();
+    $('#quatro').delay(2500).show(0);
+    $('.work').delay(2500).show(0);
+  })
+
+
+  function atualizarAltura() {
+    var altura3 = $(window).height();
+    var altura2 = $('.nav').height() + 50;
+    altura1 = $('.container-main').height();
+    if (altura1 > altura3) {
+        $('html').height(Math.max(altura2, altura3, altura1) + 10);
+        $('body').height(Math.max(altura2, altura3, altura1) + 10);
+    } else
+    {
+        $('html').height(Math.max(altura2, altura3, altura1));
+        $('body').height(Math.max(altura2, altura3, altura1));
+    }
+
+  }
+</script>
+<!-- scripts -->
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<script src="src/_js/bootstrap.min.js"></script>
+<script src="src/_js/particles/particles.js"></script>
+<script src="src/_js/ball/cloudTag.js"></script>
+<script src="src/_js/particles/app.js"></script>
+<script src="src/_js/jquery.blast.min.js"></script>
+<script src="src/_js/plugins.js"></script>
+</body>
+</html>
